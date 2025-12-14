@@ -74,7 +74,7 @@ Important data handling:
 ## 3. Task B — Game Outcome Prediction (Supervised)
 
 ### Data Source
-Match data (preseason + regular season + playoffs) for **2015–2017** seasons is collected from basketball-reference.com, along with team capability/ranking metrics. 
+Match data (preseason + regular season + playoffs) for **2022-2024** seasons is collected from basketball-reference.com, along with team capability/ranking metrics. 
 
 ### Feature Engineering (high level)
 From match results and schedules, features include:
@@ -85,7 +85,10 @@ From match results and schedules, features include:
 
 Data processing:
 - normalize/standardize features to improve convergence and accuracy, :contentReference
-- remove highly correlated features (> 0.9) to reduce redundant dimensions (examples include (vMOV,vNRtg), (hMOV,hNRtg), (hSco_avew,vSco_avew)). 
+- Adopt three feature dimensionality processing schemes:
+  - No dimensionality processing is performed; the original 14 features are used.
+  - Dimensionality processing is performed using PCA, selecting the first 8 principal components.
+  - Draw a Pearson correlation heatmap, and remove highly correlated features (> 0.9) to reduce redundant dimensions (examples include (vMOV, vNRtg), (hMOV, hNRtg), (hSco_avew, vSco_avew)).
 
 ### Models
 - **SVM** and **Logistic Regression** are trained and compared. 
