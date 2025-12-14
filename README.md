@@ -91,27 +91,22 @@ Data processing:
   - Draw a Pearson correlation heatmap, and remove highly correlated features (> 0.9) to reduce redundant dimensions (examples include (vMOV, vNRtg), (hMOV, hNRtg), (hSco_avew, vSco_avew)).
 
 ### Models
-- **SVM** and **Logistic Regression** are trained and compared. 
+- **Logistic Regression** is trained and compared. 
 
 ### Notes on Results (from the report)
-- SVM and Logistic Regression achieve similar accuracy; Logistic Regression runs faster. 
-- Reported prediction accuracy reaches about **70%**. 
+- Reported prediction accuracy reaches about **70%**.
+- Using PCA for feature dimensionality processing offers good runtime efficiency.
 
 ---
 
 ### Outputs:
 
-<img width="1411" height="581" alt="image" src="https://github.com/user-attachments/assets/18e83259-71ab-4947-845c-2c6e288a77ee" />
+<img width="865" height="356" alt="image" src="https://github.com/user-attachments/assets/bc95d365-cb43-40d7-ad83-a4a1169aaeba" />
 
-<img width="570" height="482" alt="image" src="https://github.com/user-attachments/assets/5cb954b6-230c-4244-be32-a7b440dd8186" />
-
-<img width="568" height="528" alt="image" src="https://github.com/user-attachments/assets/6013d16b-a0bf-4fc5-bb4a-0897431dc27d" />
-
-<img width="569" height="528" alt="image" src="https://github.com/user-attachments/assets/d46711ac-fc47-4d05-94cf-90cb78950d1b" />
-
-<img width="1400" height="469" alt="image" src="https://github.com/user-attachments/assets/cbbdf559-2d6e-43d6-9c4d-34e2af330025" />
-
-<img width="1399" height="459" alt="image" src="https://github.com/user-attachments/assets/fce59820-0f29-42a7-a1a9-0244b2c49001" />
+-No dimensionality processing：
+Accuracy_train:0.699077
+Accuracy_test:0.690382
+Time cost: :	0.28s
 
 
 
