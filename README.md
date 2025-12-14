@@ -104,11 +104,40 @@ Data processing:
 <img width="865" height="356" alt="image" src="https://github.com/user-attachments/assets/bc95d365-cb43-40d7-ad83-a4a1169aaeba" />
 
 #### No dimensionality processing：
--Accuracy_train:0.699077
--Accuracy_test:0.690382
--Time cost: :	0.28s
+Accuracy_train:0.699077
+
+Accuracy_test:0.690382
+
+Time cost: :	0.28s
+
+#### PCA:
+
+Original feature count: 14
+
+Feature examples: ['hm1', 'hm2', 'hm3', 'vm1', 'vm2']...
 
 
+Feature count after PCA dimensionality reduction: 8
+
+Cumulative explained variance ratio: 0.9598
+
+<img width="1390" height="490" alt="PCA" src="https://github.com/user-attachments/assets/3604bc20-0fcb-45f0-ac78-cdb66adc0782" />
+
+Training set accuracy: 0.6889
+
+Test set accuracy: 0.7207
+
+Time Cost： :	0.01s
+
+#### Select features using Pearson correlation heatmap
+
+<img width="1533" height="1453" alt="pearson1" src="https://github.com/user-attachments/assets/34191cce-ccee-4144-93ae-ea928c5147e4" />
+
+Accuracy_train:0.690508
+
+Accuracy_test:0.714097
+
+Time cost： :	0.03s
 
 ## 4. How to Run (example)
 
@@ -120,7 +149,7 @@ Data processing:
 ```bash
 pip install numpy pandas scikit-learn matplotlib
 
-
+Game outcomes prediction results will be stored in the `prediction_results` folder, saved in CSV format.
 
 
 
