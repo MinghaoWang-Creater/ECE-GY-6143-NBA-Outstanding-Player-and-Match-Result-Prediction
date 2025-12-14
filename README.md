@@ -62,7 +62,7 @@ Important data handling:
 - The outlier ratio parameter was tested at 0.1 and 0.2 to adjust strictness. 
 
 ---
-### Outputs (example):
+### Outputs:
 
 <img width="1403" height="139" alt="image" src="https://github.com/user-attachments/assets/aa88d1e6-a0d4-4d6e-a113-ee58a5199962" />
 
@@ -96,6 +96,22 @@ Data processing:
 - Reported prediction accuracy reaches about **70%**. 
 
 ---
+
+### Outputs:
+
+<img width="1411" height="581" alt="image" src="https://github.com/user-attachments/assets/18e83259-71ab-4947-845c-2c6e288a77ee" />
+
+<img width="570" height="482" alt="image" src="https://github.com/user-attachments/assets/5cb954b6-230c-4244-be32-a7b440dd8186" />
+
+<img width="568" height="528" alt="image" src="https://github.com/user-attachments/assets/6013d16b-a0bf-4fc5-bb4a-0897431dc27d" />
+
+<img width="569" height="528" alt="image" src="https://github.com/user-attachments/assets/d46711ac-fc47-4d05-94cf-90cb78950d1b" />
+
+<img width="1400" height="469" alt="image" src="https://github.com/user-attachments/assets/cbbdf559-2d6e-43d6-9c4d-34e2af330025" />
+
+<img width="1399" height="459" alt="image" src="https://github.com/user-attachments/assets/fce59820-0f29-42a7-a1a9-0244b2c49001" />
+
+
 
 ## 4. How to Run (example)
 
