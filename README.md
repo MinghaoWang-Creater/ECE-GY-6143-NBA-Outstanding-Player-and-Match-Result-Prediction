@@ -4,7 +4,7 @@ NBA best player detection and result prediction
 # Contributors：
 
 1) **Name: Jiahang Zhang**, NYU Student ID: jz7581 
-2) **Name: Minghao Wang**, NYU Student ID: 
+2) **Name: Minghao Wang**, NYU Student ID: mw5945
 
 ---
 
